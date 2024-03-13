@@ -1,39 +1,23 @@
-# create-svelte
+## TO-DO-LIST
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+Es un to-do-list sencillo que permite a los usarios que puedan escribir tareas y poder si
+ya esta realizadas y tambien eliminar las notas si ese fuese el caso.
 
-## Creating a project
+# Manera de uso 
 
-If you're seeing this, you've probably already done this step. Congrats!
+Escribes una tarea esta se almacena en el una lista que se te aprecera en la pantalla,
+en la cual solo estara lo que el texto que agragaste y dos botones uno para marcar como realizado,
+y el otro para eliminar la nota.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+# COMO SABER SI YA REALIZASTE LA TAREA
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+Facil para es sencillo, cuando toque el botón de realizado, se aparecera una linea de color
+amarillo, esto significa que la tarea esta lista o realizada.
 
-## Developing
+# COMO ELIMINAR NOTA
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Solo tienes que tocar el botón de eliminar y tu nota desaparezera de la lista.
 
-```bash
-npm run dev
+## Importante 
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
-# to-do-list
+Todas las notas quedan guardadas, aún si recargas la pagina, no se borrara nada.
