@@ -108,8 +108,8 @@
     content: "";
     position: absolute;
     bottom: 0;
-    left: 50%; /* Centrar la línea en el medio del texto */
-    transform: translateX(-50%); /* Alinear en el medio */
+    left: 50%;
+    transform: translateX(-50%);
     width: 100%;
     height: 2px;
     background-color: rgb(176, 206, 8);
